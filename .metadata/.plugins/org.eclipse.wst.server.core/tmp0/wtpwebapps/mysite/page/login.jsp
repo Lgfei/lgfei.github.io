@@ -11,7 +11,7 @@ pageEncoding="utf-8"%>
 <s:form action="login">
 	<s:textfield name="userInfoVO.userAccount" label="帐号"></s:textfield>
 	<s:password name="userInfoVO.password" label="密码"></s:password>
-	<s:submit>提交</s:submit>
+	<s:submit label="登录"></s:submit>
 </s:form>
 </body>
 </html>
