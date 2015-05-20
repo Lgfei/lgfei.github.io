@@ -1,0 +1,10 @@
+package com.lgfei.mysite.vo;
+
+/**
+ * 
+ * @author GitHub4Lgfei
+ * @date 2015-5-19
+ */
+public class UserInfoVO extends BaseVO{
+	private Long userIdl;
+}

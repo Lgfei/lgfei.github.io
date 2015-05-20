@@ -1,0 +1,8 @@
+package com.lgfei.mysite.service;
+
+import com.lgfei.mysite.vo.UserInfoVO;
+
+public interface IUserService {
+
+	public void login(UserInfoVO user);
+}

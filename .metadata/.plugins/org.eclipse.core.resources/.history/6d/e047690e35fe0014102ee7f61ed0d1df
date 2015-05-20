@@ -1,0 +1,29 @@
+package com.lgfei.mysite.action;
+
+import com.lgfei.mysite.service.IUserService;
+import com.lgfei.mysite.vo.UserInfoVO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class LoginAction extends ActionSupport{
+
+	private static final long serialVersionUID = -6422349743325802121L;
+	
+	private UserInfoVO userInfoVO;
+	private IUserService userService;
+
+	public UserInfoVO getUserInfoVO() {
+		return userInfoVO;
+	}
+
+	public void setUserInfoVO(UserInfoVO userInfoVO) {
+		this.userInfoVO = userInfoVO;
+	}
+
+	@Override
+	public String execute() throws Exception {
+		// TODO Auto-generated method stub
+		return super.execute();
+	}
+	
+	
+}

@@ -1,0 +1,5 @@
+package com.lgfei.mysite.vo;
+
+public class UserInfoVO {
+
+}

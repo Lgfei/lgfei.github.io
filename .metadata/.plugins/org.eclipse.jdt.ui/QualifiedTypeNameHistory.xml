@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.lgfei.mysite.vo.BaseVO"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.lgfei.mysite.dao.IUserDao"/>
+<fullyQualifiedTypeName name="com.lgfei.mysite.dao.impl.UserDao"/>
+<fullyQualifiedTypeName name="com.lgfei.mysite.utils.StringUtil"/>
+<fullyQualifiedTypeName name="com.lgfei.mysite.service.IUserService"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.Action"/>
+<fullyQualifiedTypeName name="org.apache.struts2.interceptor.RequestAware"/>
+<fullyQualifiedTypeName name="org.apache.struts2.interceptor.SessionAware"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.lgfei.mysite.message.ResultMessageVO"/>
+<fullyQualifiedTypeName name="com.lgfei.mysite.service.impl.UserService"/>
+<fullyQualifiedTypeName name="com.lgfei.mysite.vo.UserInfoVO"/>
+</qualifiedTypeNameHistroy>

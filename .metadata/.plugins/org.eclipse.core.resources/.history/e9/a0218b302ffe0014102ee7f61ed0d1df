@@ -1,0 +1,6 @@
+package com.lgfei.mysite.dao;
+
+public interface IUserDao {
+
+	
+}

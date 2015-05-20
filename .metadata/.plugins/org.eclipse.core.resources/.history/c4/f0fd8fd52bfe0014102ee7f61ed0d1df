@@ -1,0 +1,12 @@
+package com.lgfei.mysite.vo;
+
+import java.util.Date;
+
+public class BaseVO {
+
+	private String enableFlag;
+	private Long createBy;	
+	private Date createDate;
+	private Long lastUpdateBy;	
+	private Date lastUpdateDate;
+}

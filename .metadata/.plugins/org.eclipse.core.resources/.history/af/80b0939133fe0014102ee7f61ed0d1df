@@ -1,0 +1,10 @@
+package com.lgfei.mysite.utils;
+
+public class StringUtil {
+
+	public static boolean isNullOrEmpty(String paramStr){
+		if(null == paramStr || paramStr.trim().length() == 0){
+			
+		}
+	}
+}

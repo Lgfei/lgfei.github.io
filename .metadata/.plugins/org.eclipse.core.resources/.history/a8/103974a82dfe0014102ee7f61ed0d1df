@@ -1,0 +1,5 @@
+package com.lgfei.mysite.action;
+
+public class LoginAction {
+
+}
