@@ -1,4 +1,4 @@
-package com.lgfei.test;
+package com.lgfei.mysite.test;
 
 public class Test {
 

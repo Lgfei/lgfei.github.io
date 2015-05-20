@@ -8,10 +8,12 @@ pageEncoding="utf-8"%>
 <title>Login Page</title>
 </head>
 <body>
-<s:form action="login">
+<s:fielderror/>
+<span style="color:red;"><s:property value="#request.errorMsg"/></span>
+<s:form action="../user/login" validate="true">
 	<s:textfield name="userInfoVO.userAccount" label="帐号"></s:textfield>
 	<s:password name="userInfoVO.password" label="密码"></s:password>
-	<s:submit label="登录"></s:submit>
+	<s:submit value="登录"></s:submit>
 </s:form>
 </body>
 </html>

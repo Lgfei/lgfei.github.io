@@ -5,13 +5,9 @@ pageEncoding="utf-8"%>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Login Page</title>
+<title>Welcome Page</title>
 </head>
 <body>
-<s:form action="login">
-	<s:textfield name="userInfoVO.userAccount" label="帐号"></s:textfield>
-	<s:password name="userInfoVO.password" label="密码"></s:password>
-	<s:submit label="登录"></s:submit>
-</s:form>
+<h1><s:property value="#attr.currentUser"/>登录成功</h1>
 </body>
 </html>
