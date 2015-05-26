@@ -5,9 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.lgfei.mysite.utils.JdbcDbUtil;
-import com.lgfei.mysite.utils.StringUtil;
 import com.lgfei.mysite.vo.UserInfoVO;
-import com.lgfei.mysite.vo.VO;
 
 public class Test {
 
