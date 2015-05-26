@@ -9,7 +9,7 @@ import java.util.Date;
  */
 public class UserInfoVO extends BaseVO{
 	
-	private static final long serialVersionUID = 3995440098163342294L;
+	//private static final long serialVersionUID = 3995440098163342294L;
 	
 	private Long userId;
 	private String userAccount;
