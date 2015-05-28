@@ -4,15 +4,22 @@ import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.lgfei.mysite.dao.IUserDao;
+import com.lgfei.mysite.dao.impl.UserDao;
 import com.lgfei.mysite.utils.JdbcDbUtil;
 import com.lgfei.mysite.vo.UserInfoVO;
 
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Test test = new Test();
-		test.testJdbcDbUtil();
+		//test.testJdbcDbUtil();
+		
+		IUserDao userDao = new UserDao();
+		UserInfoVO user = new UserInfoVO();
+		user.setUserAccount("test2");
+		UserInfoVO userInfo = userDao.findOneUser(user);
+		System.out.println(userInfo.getUserName());
 	}
 	
 	public void testJdbcDbUtil(){

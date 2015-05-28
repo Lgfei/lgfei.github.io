@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.lgfei.mysite.vo">
+
+	<class name="UserInfoVO" table="user_info_t">
+		<id name = "userId" column="user_id">
+			<generator class="native"/>
+		</id>
+		<property name="userAccount" column="user_account" type="java.lang.String" not-null="true" length="20"></property>
+		<property name="userName" column="user_name" type="java.lang.String" not-null="true" length="50"></property>
+		<property name="password" column="password" type="java.lang.String" not-null="true" length="20"></property>
+		<property name="email" column="email" type="java.lang.String"></property>
+		<property name="phone" column="phone" type="java.lang.String"></property>
+		<property name="addr" column="addr" type="java.lang.String"></property>
+		<property name="birthday" column="birthday" type="java.util.Date"></property>
+	</class>
+
+</hibernate-mapping>

@@ -1,7 +1,6 @@
 package com.lgfei.mysite.service.impl;
 
 import com.lgfei.mysite.dao.IUserDao;
-import com.lgfei.mysite.dao.impl.UserDao;
 import com.lgfei.mysite.message.ResultMessageVO;
 import com.lgfei.mysite.service.IUserService;
 import com.lgfei.mysite.utils.StringUtil;
@@ -9,8 +8,16 @@ import com.lgfei.mysite.vo.UserInfoVO;
 
 public class UserService implements IUserService {
 
-	private IUserDao userDao = new UserDao();
+	private IUserDao userDao;// = new UserDao();
 	
+	public IUserDao getUserDao() {
+		return userDao;
+	}
+
+	public void setUserDao(IUserDao userDao) {
+		this.userDao = userDao;
+	}
+
 	@Override
 	public ResultMessageVO login(UserInfoVO user) {
 		ResultMessageVO resultMessageVO = new ResultMessageVO();

@@ -50,7 +50,7 @@ public class LoginAction extends ActionSupport implements RequestAware,SessionAw
 	public String execute() throws Exception {
 		request.remove("errorMsg");
 		session.remove("currentUser");
-		userService = new UserService();
+		//userService = new UserService();
 		ResultMessageVO remsgVO = userService.login(userInfoVO);
 		if(remsgVO.isError()){
 			request.put("errorMsg", remsgVO.getMessage());
