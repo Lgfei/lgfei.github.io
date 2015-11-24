@@ -1,6 +1,0 @@
-package com.lgfei.mysite.message;
-
-public class ResultMessageVO {
-
-	private String methodName;
-}

@@ -1,6 +1,0 @@
-package com.lgfei.mysite.vo;
-
-public class BaseVO {
-
-	private String enableFlag;
-}

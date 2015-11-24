@@ -1,6 +1,0 @@
-package com.lgfei.mysite.service;
-
-public interface IUserService {
-
-	public int ss = 0;
-}

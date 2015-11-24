@@ -1,5 +1,0 @@
-package com.lgfei.mysite.service.copy;
-
-public interface IUserInfoService {
-
-}

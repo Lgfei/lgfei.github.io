@@ -9,6 +9,6 @@
 <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
 <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk7.0"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="start"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.base=&quot;E:\0123abc\Tomcat\apache-tomcat-7.0.39&quot; -Dcatalina.home=&quot;E:\0123abc\Tomcat\apache-tomcat-7.0.39&quot; -Dwtp.deploy=&quot;E:\0123abc\Tomcat\apache-tomcat-7.0.39\webapps&quot; -Djava.endorsed.dirs=&quot;E:\0123abc\Tomcat\apache-tomcat-7.0.39\endorsed&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.base=&quot;E:\GitHub\mySite\GitHub4Lgfei.github.io\.metadata\.plugins\org.eclipse.wst.server.core\tmp1&quot; -Dcatalina.home=&quot;E:\0123abc\Tomcat\apache-tomcat-7.0.39&quot; -Dwtp.deploy=&quot;E:\GitHub\mySite\GitHub4Lgfei.github.io\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps&quot; -Djava.endorsed.dirs=&quot;E:\0123abc\Tomcat\apache-tomcat-7.0.39\endorsed&quot;"/>
 <stringAttribute key="server-id" value="Tomcat v7.0 Server at localhost"/>
 </launchConfiguration>
