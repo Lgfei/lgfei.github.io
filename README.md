@@ -1,2 +1,2 @@
-# GitHub4Lgfei.github.io
-听说在GitHub上可以免费在网上发布自己的主页
+# Lgfei.github.io
+这个仓库用于试验发布个人主页

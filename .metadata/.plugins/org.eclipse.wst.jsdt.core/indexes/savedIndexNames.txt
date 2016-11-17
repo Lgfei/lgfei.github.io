@@ -1,6 +1,0 @@
-INDEX VERSION 1.122+E:\GitHub\mySite\GitHub4Lgfei.github.io\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1907758207.index
-3328423572.index
-86863471.index
-2998227284.index
-848242478.index
