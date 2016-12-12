@@ -59,7 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			    bootbox.prompt("请输入你的名字", function (result) {
 				    var yourName = result;
 					var myEmail="longuofei@163.com";
-					var subject = "女王陛下发来的邮件";
+					var subject = encodeURI("女王陛下发来的邮件");
 					if(!yourName){
 					    return;
 				    }else if(yourName == '李芯怡'){
