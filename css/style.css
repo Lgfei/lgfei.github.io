@@ -408,7 +408,7 @@ h2.resp-accordion {
 }
 .download a:hover{
 	background: #F58703;
-	color:#fff;
+	border:1px solid;
 }
 /*--//download --*/
 
