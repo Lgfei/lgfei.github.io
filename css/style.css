@@ -394,12 +394,12 @@ h2.resp-accordion {
 	color:#fff;
 }
 .download a{
-	color: #F58703;
+	color: #fff;
 	padding:10px 20px;
 	font-size:16px;
 	display:inline-block;
 	margin-top:20px;
-	border:1px dotted #F58703;
+	border:1px dotted #fff;
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
