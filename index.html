@@ -54,15 +54,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<h4 class="agile">18664571731</h4>
 			<h4>广东，深圳</h4>
 		</div>
+		<!-- SendEmail-->
+		<script src="js/md5.js"></script>
 		<script language="JavaScript">
 			function sendEmail(){
 			    bootbox.prompt("请输入你的名字", function (result) {
-				    var yourName = result;
+				    var yourName = hex_md5(result);
 					var myEmail="longuofei@163.com";
 					var subject = encodeURI("女王陛下发来的邮件");
 					if(!yourName){
 					    return;
-				    }else if(yourName == '李芯怡'){
+				    }else if(yourName == '5e5fc4b5c2117629774f2601c0fbe714'){
 						parent.location.href='mailto:'+myEmail+'?subject='+subject+'';
 					}else{
 					    $("#msg_danger").removeClass('hidden');
@@ -73,6 +75,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			    });	
 			}
 		</script>
+		<!--//SendEmail-->
 		<div class="b-part3">
             <video controls>
 			    <source src="upload/video.mp4" type="video/mp4">
