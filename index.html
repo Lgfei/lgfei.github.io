@@ -9,8 +9,7 @@
 <title>龙国飞主页</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Curriculum vitae Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<meta name="keywords" content="Lgfei,Bootstrap Web Templates" />
 <script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -24,431 +23,73 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--//web-font-->
 <script src="js/jquery.min.js"></script>
 </head>
-<body>
-<!--message-->
-<div id="msg_success" class="alert alert-success hidden">
-	成功！很好地完成了提交。
-</div>
-<div id="msg_info" class="alert alert-info hidden">
-	信息！请注意这个信息。
-</div>
-<div id="msg_warning" class="alert alert-warning hidden">
-	警告！请不要提交。
-</div>
-<div id="msg_danger"  class="alert alert-danger hidden">
-	错误！名字填错了，朕很忙的。
-</div>
-<!--//message-->
-
-<!--banner-->
-<div class="banner">
-	<div class="container">
-		<div class="col-md-3 b-part1">
-			<img src="images/1.jpg" alt=" " />
-			<h1>龙国飞</h1>
-			<h2>Web Designer</h2>
-		</div>
-		<div class="col-md-3 b-part2">
-			<h3>联系方式</h3>
-			<h4><a href="javascript:sendEmail()">longuofei@163.com</a></h4>
-			<h4 class="agile">18664571731</h4>
-			<h4>广东，深圳</h4>
-		</div>
-		<!-- SendEmail-->
-		<script src="js/md5.js"></script>
-		<script language="JavaScript">
-			function sendEmail(){
-			    bootbox.prompt("请输入你的名字", function (result) {
-				    var yourName = hex_md5(result);
-					var myEmail="longuofei@163.com";
-					var subject = encodeURI("女王陛下发来的邮件");
-					if(!yourName){
-					    return;
-				    }else if(yourName == '5e5fc4b5c2117629774f2601c0fbe714'){
-						parent.location.href='mailto:'+myEmail+'?subject='+subject+'';
-					}else{
-					    $("#msg_danger").removeClass('hidden');
-						setTimeout(function(){
-							$("#msg_danger").addClass('hidden');
-						},3000);
-				    }
-			    });	
-			}
-		</script>
-		<!--//SendEmail-->
-		<div class="b-part3">
-            <video controls>
-			    <source src="upload/video.mp4" type="video/mp4">
-			</video>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</div>
-<!--//banner-->
-
-<!--about-->
-<div class="about">
-	<div class="container">
-		<h3>自我介绍</h3>
-		<label class="line"></label>
-		<img src="images/1.jpg" alt=" " />
-		<p>这里写自我介绍。。。</p>
-	</div>
-</div>
-<!--//about-->
-
-<!--skills-->
-<div class="skills">
-	<div class="container">
-		<h3>技能自评</h3>
-		<label class="line"></label>
-			<div class="col-md-6 skills-left">
-				<h4>说明</h4>
-				<p>这里写说明</p> 	
-			</div>
-			<div class="col-md-6 skills-right">
-				<div class="bar_group">
-					<div class='bar_group__bar thin' label='Java' show_values='true' tooltip='true' value='100'></div>
-					<div class='bar_group__bar thin' label='HTML' show_values='true' tooltip='true' value='100'></div>
-					<div class='bar_group__bar thin' label='Java Script' show_values='true' tooltip='true' value='100'></div>
-					<div class='bar_group__bar thin' label='Designing' show_values='true' tooltip='true' value='100'></div>
+<body style="background: #f3f3f3">
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-3 column">
+			<div class="panel-group" id="panel-menu">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-menu" href="#panel-element-jl">我的简历</a>
+					</div>
+					<div id="panel-element-jl" class="panel-collapse collapse in">
+						<div class="panel-body" style="padding: 0px !important;">
+							<div class="list-group">
+								<a href="#" class="list-group-item active">基本信息</a>
+								<a href="#" class="list-group-item">自我评价</a>
+								<a href="#" class="list-group-item">工作经历</a>
+								<a href="#" class="list-group-item">教育背景</a>
+								<a href="#" class="list-group-item">兴趣爱好</a>
+							</div>
+						</div>
+					</div>
 				</div>
-				<script src="js/bars.js"></script>
-			</div>
-			<div class="clearfix"></div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-menu" href="#panel-element-zp">我的作品</a>
+					</div>
+					<div id="panel-element-zp" class="panel-collapse collapse">
+						<div class="panel-body" style="padding: 0px !important;">
+							<div class="list-group">
+								<a href="#" class="list-group-item">网站</a>
+								<a href="#" class="list-group-item">插件</a>
+								<a href="#" class="list-group-item">设计</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
 			
-	</div>
-</div>
-<!--/skills-->
-			
-<!--portfolio-->
-<div id="portfolio" class="portfolio">
-	<div class="container">
-		<h3>我的代表作品</h3>
-		<label class="line"></label>
-		<div class="sap_tabs">			
-			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-				<ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
-					<li class="resp-tab-item"><span>全部</span></li>
-					<li class="resp-tab-item"><span>网站</span></li>
-					<li class="resp-tab-item"><span>插件</span></li>
-					<li class="resp-tab-item"><span>设计</span></li>				
-				</ul>	
-				<div class="clearfix"> </div>	
-				<div class="resp-tabs-container">
-					<div class="tab-1 resp-tab-content">
-						<div class="tab_img">
-							<div class="col-md-4 portfolio-grids grid first">
-								<div class="effect1 wow fadeInUp animated" data-wow-delay=".5s">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid">
-								<div class="effect1 wow fadeInUp animated" data-wow-delay=".7s">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid">
-								<div class="effect1 wow fadeInUp animated" data-wow-delay=".9s">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid grid-mdl">
-								<div class="effect1 wow fadeInUp animated" data-wow-delay=".5s">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid grid-mdl">
-								<div class="effect1 wow fadeInUp animated" data-wow-delay=".7s">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid grid-mdl">
-								<div class="effect1 wow fadeInUp animated" data-wow-delay=".9s">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid">
-								<div class="effect1 wow fadeInUp animated" data-wow-delay=".5s">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid">
-								<div class="effect1 wow fadeInUp animated" data-wow-delay=".7s">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid last">
-								<div class="effect1 wow fadeInUp animated" data-wow-delay=".9s">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="clearfix"> </div>
+		<div class="col-md-9 column">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						基本信息
+					</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row clearfix">
+						<div class="col-md-4 column">
+							<img src="images/headimg.jpg" class="img-circle"/>
 						</div>
-					</div>
-					<div class="tab-1 resp-tab-content">
-						<div class="tab_img">
-							<div class="col-md-4 portfolio-grids grid">
-								<div class="effect1">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid">
-								<div class="effect1">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid">
-								<div class="effect1">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-					<div class="tab-1 resp-tab-content">
-						<div class="tab_img">
-							<div class="col-md-4 portfolio-grids grid">
-								<div class="effect1">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid">
-								<div class="effect1">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid">
-								<div class="effect1">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-					<div class="tab-1 resp-tab-content">
-						<div class="tab_img">
-							<div class="col-md-4 portfolio-grids grid">
-								<div class="effect1">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid">
-								<div class="effect1">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="col-md-4 portfolio-grids grid">
-								<div class="effect1">
-									<a href="images/expect.jpg" class="swipebox" title="我正在努力的开发。。。">
-										<img src="images/expect.jpg" alt="" class="img-responsive" />
-										<div class="figcaption">
-											<p>我正在努力的开发。。。</p>
-										</div>
-									</a>	
-								</div>
-							</div>
-							<div class="clearfix"> </div>
+						<div class="col-md-8 column">
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<!--ResponsiveTabs-->
-		<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			$(document).ready(function () {
-				$('#horizontalTab').easyResponsiveTabs({
-					type: 'default', //Types: default, vertical, accordion           
-					width: 'auto', //auto or any width like 600px
-					fit: true   // 100% fit in a container
-				});
-			});		
-		</script>
-		<!--//ResponsiveTabs-->
-		<!-- swipe box js -->
-		<script src="js/jquery.swipebox.min.js"></script> 
-		<script type="text/javascript">
-			jQuery(function($) {
-				$(".swipebox").swipebox();
-			});
-		</script>
-		<!-- //swipe box js -->
-	</div>
-</div>
-<!--//portfolio-->
-
-<!-- download-->
-<div class="download">
-	<h3>下载我的简历</h3>
-	<a href="upload/龙国飞的简历.docx">点击下载</a>
-</div>
-<!-- //download -->
-
-<!-- blog -->
-<div class="blog">
-	<div class="container">
-		<h3>重大事件</h3>
-		<label class="line"></label>
-		<div class="blog-grids">
-			<div class="col-md-6 blog-left">
-				<div class="col-md-3 agile1">
-					<h5>25</h5>
-					<h6>2016/10</h6>
-					<i class="fa fa-envelope" aria-hidden="true"></i>
-					<a href="#"><h6 class="spcl">评论-7</h6></a>
-					<i class="fa fa-eye" aria-hidden="true"></i>
-					<a href="#"><h6 class="spcl">查阅-28</h6></a>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						自我介绍
+					</h3>
 				</div>
-				<div class="col-md-9 agile2">
-					<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/b1.jpg" alt="" /></a>
-					<a href="#" data-toggle="modal" data-target="#myModal"><h4>一个发布会</h4></a>
-					<p>事件简介。</p>
+				<div class="panel-body">
+					占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符
 				</div>
-				<div class="clearfix"></div>
 			</div>
-			<div class="col-md-6 blog-right">
-				<div class="col-md-3 agile1">
-					<h5>10</h5>
-					<h6>2016/10</h6>
-					<i class="fa fa-envelope" aria-hidden="true"></i>
-					<a href="#"><h6 class="spcl">评论-8</h6></a>
-					<i class="fa fa-eye" aria-hidden="true"></i>
-					<a href="#"><h6 class="spcl">查阅-48</h6></a>
-				</div>
-				<div class="col-md-9 agile2">
-					<a href="#" data-toggle="modal" data-target="#myModal2"><img src="images/b2.jpg" alt="" /></a>
-					<a href="#" data-toggle="modal" data-target="#myModal2"><h4>一个研讨会</h4></a>
-					<p>事件简介。</p>
-				</div>
-				<div class="clearfix"></div>				
-			</div>
-			<div  class="clearfix"></div>
 		</div>
 	</div>
-</div>
-<!-- //blog -->
-
- <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				 <button type="button" class="close" data-dismiss="modal">&times;</button>
-				 <h4 class="modal-title">一个发布会</h4>
-			</div>
-			<div class="modal-body">
-				  <img src="images/b1.jpg "alt=" " />
-				  <p>我也不知道这是在干嘛。O(∩_∩)O</p>
-			</div>
-			<div class="modal-footer">
-				  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			 </div>
- 
-		</div>
-	</div> 
-</div>
-     
- <div class="modal fade" id="myModal2" role="dialog">
-    <div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				 <button type="button" class="close" data-dismiss="modal">&times;</button>
-				 <h4 class="modal-title">一个研讨会</h4>
-			</div>
-			<div class="modal-body">
-				  <img src="images/b2.jpg "alt=" " />
-				  <p>我也不知道这是在干嘛。O(∩_∩)O</p>
-			</div>
-			<div class="modal-footer">
-				  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div> 
 </div>
 
 <!--footer-->
@@ -461,5 +102,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/bootbox.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <!--//common js-->
+<!--ResponsiveTabs-->
+<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$('#horizontalTab').easyResponsiveTabs({
+			type: 'default', //Types: default, vertical, accordion           
+			width: 'auto', //auto or any width like 600px
+			fit: true   // 100% fit in a container
+		});
+	});		
+</script>
+<!--//ResponsiveTabs-->
+<!-- swipe box js -->
+<script src="js/jquery.swipebox.min.js"></script> 
+<script type="text/javascript">
+	jQuery(function($) {
+		$(".swipebox").swipebox();
+	});
+</script>
+<!-- //swipe box js -->	
 </body>
 </html>
