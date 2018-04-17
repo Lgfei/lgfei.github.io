@@ -245,7 +245,7 @@ h2.resp-accordion {
 	pointer-events: none;
 }
 .grid .figcaption {
-    position: absolute;
+    position: inherit;
     top: -301px;
     left: 407px;
     width: 100%;
