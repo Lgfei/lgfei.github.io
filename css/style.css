@@ -166,7 +166,7 @@ img {
 .b_label {
     margin-bottom: .5em;
     font-size: 1.1em;
-	color: #e8e8e8;
+	color: black;
 }
 /*--//progress-bars--*/
 /*-- //skills --*/
@@ -368,5 +368,8 @@ h2.resp-accordion {
 }
 .align-right{
 	text-align:right !important;
+}
+.bg-row{
+	background-color: #f5f5f5;
 }
 /*-- //common --*/
