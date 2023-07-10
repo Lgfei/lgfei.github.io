@@ -52,6 +52,10 @@ body {
 /*
  * Main
  */
-.row .products {
+.products {
   height: 30em;
+}
+
+.contact {
+  height: 3em;
 }
