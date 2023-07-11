@@ -16,12 +16,13 @@
     <link href="./css/cover.css" rel="stylesheet" />
   </head>
   <body class="d-flex h-100 text-center text-bg-dark">
+    <a name="top"></a>
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="mb-auto">
         <div>
           <h3 class="float-md-start mb-0">Lgfei</h3>
           <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link fw-bold py-1 px-0 active" href="#home">Home</a>
             <a class="nav-link fw-bold py-1 px-0" href="#products">Products</a>
             <a class="nav-link fw-bold py-1 px-0" href="#contact">Contact</a>
           </nav>
@@ -29,36 +30,187 @@
       </header>
 
       <main class="px-3">
-        <a name="home"></a>
-        <h1>Lgfei GitHub Page</h1>
+        <h1 class="anchor-point"><a name="home">Lgfei GitHub Page</a></h1>
         <p class="lead">
           星爷，您好。我是程序员Lgfei，希望有一天能从技术的使用者升级为技术的贡献者，梦想要有，万一实现了呢，加油！
         </p>
+        
         <hr/>
 
-        <a name="products"></a>
-        <h1>Products</h1>
+        <h1  class="anchor-point"><a name="products">Products</a></h1>
         <div class="container text-center">
           <div class="row products">
             <div class="col">
-              OSIO
+              <div class="row">
+                <div class="col">
+                  <h4>OSIO</h4>
+                  <p class="products-desc">
+                    项目以二氧化硅命名，旨在成为一切"高楼大厦"之基石。大部分企业都有自己的基础平台，功能大同小异，实现方式却不尽相同，存在严重的重复造轮子浪费资源的现象。如果有一套通用企业级管理基础平台框架，将是很多中小企业的福音。
+                    <br/>
+                    <br/>
+                    OSIO基于Java 17 + Spring Boot 3.0 + Spring Cloud的微服务应用程序框架，可帮助公司更快，更高效地进行微服务开发，其中包括系统设置，用户管理，权限管理，消息管理，文件管理，调度中心，导入导出，平台治理等常用开箱即用的模块，并支持灵活的可配置性和拓展性。
+                  </p>
+                </div>
+                <div class="col">
+                  <div id="osioCarousel" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#osioCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#osioCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#osioCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/bg_gray.png" class="img-fluid products-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/bg_gray.png" class="img-fluid products-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/bg_gray.png" class="img-fluid products-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#osioCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#osioCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          <hr/>
           <div class="row products">
             <div class="col">
-              WebChat
+              <div class="row">
+                <div class="col">
+                  <div id="webchatCarousel" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#webchatCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#webchatCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#webchatCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#webchatCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/webchat_create_room.png" class="img-fluid products-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>创建房间</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/webchat_list_room.png" class="img-fluid products-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>房间列表</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/webchat_enter_room.png" class="img-fluid products-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>进入房间</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/webchat.png" class="img-fluid products-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>开始聊天</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#webchatCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#webchatCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>WebChat</h4>
+                  <p class="products-desc">
+                    在通讯不便的情况下，以备不时之需。无需登录注册，方便快捷。
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
+          <hr/>
           <div class="row products">
-            <div class="col">
-              MyTool
+            <div class="row">
+              <div class="col">
+                <h4>MyTool</h4>
+                <p class="products-desc">
+                  虽然有很多程序员工具箱网站，但是要么不稳定，要么太繁杂，且很多时候不能一步到位。为了让机器最大程度的帮助自己完成一些繁琐的工作，有必要开发适合自己的个性化的工具箱。
+                </p>
+              </div>
+              <div class="col">
+                <div id="osioCarousel" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#osioCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#osioCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#osioCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/bg_gray.png" class="img-fluid products-img" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/bg_gray.png" class="img-fluid products-img" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/bg_gray.png" class="img-fluid products-img" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#osioCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#osioCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        
         <hr/>
 
-        <a name="contact"></a>
-        <h1>Contact</h1>
+        <h1  class="anchor-point"><a name="contact">Contact</a></h1>
         <div class="container text-center">
           <div class="row contact">
             <div class="col">
@@ -76,10 +228,6 @@
       </footer>
     </div>
 
-    <script type="module">
-      import * as bootstrap from 'bootstrap'
-
-      new bootstrap.Popover(document.getElementsByTagName("nav"))
-    </script>
+    <a href="#top"><img class="gototop" src="https://i02piccdn.sogoucdn.com/4f3b2858eec9e2cf" alt="回顶端"></a>
   </body>
 </html>

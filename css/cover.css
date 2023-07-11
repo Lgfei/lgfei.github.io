@@ -30,6 +30,7 @@ body {
  * Header
  */
 
+
 .nav-masthead .nav-link {
   color: rgba(255, 255, 255, .5);
   border-bottom: .25rem solid transparent;
@@ -53,9 +54,30 @@ body {
  * Main
  */
 .products {
-  height: 30em;
+  height: 22em;
 }
+
+.products-desc {
+  text-align: left;
+}
+
+.products-img {
+  height: 22em;
+}
+
 
 .contact {
   height: 3em;
+}
+
+.anchor-point {
+  text-decoration: underline;
+}
+
+.gototop {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 54px;
+  height: 54px;
 }
